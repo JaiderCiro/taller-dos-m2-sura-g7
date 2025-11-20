@@ -21,3 +21,11 @@ console.log(notas);
 
 let Aprobadas = notas.filter(nota => nota >= 6);
 console.log(Aprobadas);
+
+//Ejercicio #4
+
+let productos = [{nombre: "Camisa", stock: 10}, {nombre: "Zapatos", stock: 0}, {nombre: "Pantalón", stock: 5}];
+console.log(productos);
+
+let enStock = productos.filter(productos => productos.stock > 0);
+console.log(enStock);
