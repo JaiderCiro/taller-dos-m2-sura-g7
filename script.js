@@ -45,3 +45,12 @@ console.log(grupos);
 
 let listaPlana = grupos.reduce((acumulador, resultado) => acumulador.concat(resultado));
 console.log(listaPlana);
+
+//Ejercicio #7
+
+let original = ["A", "B", "C"];
+console.log(original);
+
+let clon = original.slice();
+clon.push("D");
+console.log(clon);
