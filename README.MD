@@ -51,7 +51,7 @@ Tareas:
 
 ## Ejercicio 5: Suma Total de Ventas (reduce)
 Inicias con una lista de ventas del día:
-`let ventas = [150, 300, 100, 50];`
+`"let ventas = [150, 300, 100, 50];`
 
 Tareas:
 1.  Calcula el valor `totalVentas` sumando todos los elementos del arreglo usando `reduce`.

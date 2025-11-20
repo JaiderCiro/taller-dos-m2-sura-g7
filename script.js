@@ -37,3 +37,11 @@ console.log(ventas);
 
 let totalVentas = ventas.reduce((acumulador, venta) => acumulador + venta, 0);
 console.log(totalVentas);
+
+//Ejercicio #6
+
+let grupos = [["Ana", "Luis"], ["Maria", "Juan"], ["Pedro"]];
+console.log(grupos);
+
+let listaPlana = grupos.reduce((acumulador, resultado) => acumulador.concat(resultado));
+console.log(listaPlana);
