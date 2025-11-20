@@ -62,3 +62,17 @@ console.log(competidores);
 
 let podio = competidores.slice(0, 3);
 console.log(podio);
+
+//Ejercicio #9
+
+let equipoDev = ["Ana", "Juan"];
+console.log(equipoDev);
+
+let equipoQA = ["Carlos", "Maria"];
+console.log(equipoQA);
+
+let equipoCompleto = equipoDev.concat(equipoQA)
+console.log(equipoCompleto);
+
+
+
