@@ -29,3 +29,11 @@ console.log(productos);
 
 let enStock = productos.filter(productos => productos.stock > 0);
 console.log(enStock);
+
+//Ejercicio #5
+
+let ventas = [150, 300, 100, 50];
+console.log(ventas);
+
+let totalVentas = ventas.reduce((acumulador, venta) => acumulador + venta, 0);
+console.log(totalVentas);
