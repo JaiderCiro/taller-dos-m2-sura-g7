@@ -54,3 +54,11 @@ console.log(original);
 let clon = original.slice();
 clon.push("D");
 console.log(clon);
+
+//Ejercicio #8
+
+let competidores = ["Oro", "Plata", "Bronce", "Mención 1", "Mención 2"];
+console.log(competidores);
+
+let podio = competidores.slice(0, 3);
+console.log(podio);
