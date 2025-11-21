@@ -74,5 +74,11 @@ console.log(equipoQA);
 let equipoCompleto = equipoDev.concat(equipoQA)
 console.log(equipoCompleto);
 
+//Ejercicio #10
 
+let carrito = ["Manzana"];
+console.log(carrito);
+
+let nuevoCarrito = carrito.concat("pera")
+console.log(nuevoCarrito);
 
