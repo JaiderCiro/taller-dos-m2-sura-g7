@@ -94,3 +94,10 @@ let Editor = roles.includes("EDITOR");
 console.log(Editor);
 
 
+//Ejercicio #12
+
+let usuarios = [{id: 101, nombre: "Ana"}, {id: 102, nombre: "Luis"}, {id: 103, nombre: "Carlos"}];
+console.log(usuarios);
+
+let usuarioLuis = usuarios2.find((usuario) => usuario.id == 102)
+console.log(usuarioLuis);
