@@ -126,3 +126,12 @@ console.log(fila);
 
 let nuevaFila = fila.filter((nombre) => nombre !== "Luis")
 console.log(nuevaFila);
+
+
+//Ejercicio #16
+
+let fila = ["Ana", "Luis", "Carlos", "Maria"];
+console.log(fila);
+
+let nuevaFilaConJorge = [...fila.slice(0,1), "Jorge", ...fila.slice(1)];
+console.log(nuevaFilaConJorge);
