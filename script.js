@@ -146,3 +146,11 @@ let nuevoTablero = tablero.map((valor, index) =>
   index === 1 ? "X" : valor
 );
 console.log(nuevoTablero);
+
+//Ejercicio #18
+
+let productos = [{nombre: "Papas", precio: 2}, {nombre: "Carne", precio: 15}, {nombre: "Leche", precio: 3}];
+console.log(productos);
+
+let productosCaros = productos.filter(producto => producto.precio > 4).map(producto => producto.nombre);
+console.log(productosCaros);
