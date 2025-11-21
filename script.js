@@ -154,3 +154,11 @@ console.log(productos);
 
 let productosCaros = productos.filter(producto => producto.precio > 4).map(producto => producto.nombre);
 console.log(productosCaros);
+
+//Ejercicio #19
+
+let feed = ["Noticia 1", "Noticia 2", "Noticia 3"];
+console.log(feed);
+
+let nuevoFeed = ["Noticia Urgente"].concat(feed);
+console.log(nuevoFeed);
