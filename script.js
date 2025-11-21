@@ -135,3 +135,14 @@ console.log(fila);
 
 let nuevaFilaConJorge = [...fila.slice(0,1), "Jorge", ...fila.slice(1)];
 console.log(nuevaFilaConJorge);
+
+
+//Ejercicio #17
+
+let tablero = ["X", "O", "X"];
+console.log(tablero);
+
+let nuevoTablero = tablero.map((valor, index) =>
+  index === 1 ? "X" : valor
+);
+console.log(nuevoTablero);
