@@ -119,3 +119,10 @@ console.log(receta);
 let recetaInversa = [...receta].reverse();
 console.log(recetaInversa);
 
+//Ejercicio #15
+
+let fila = ["Ana", "Luis", "Carlos", "Maria"];
+console.log(fila);
+
+let nuevaFila = fila.filter((nombre) => nombre !== "Luis")
+console.log(nuevaFila);
