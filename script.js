@@ -82,3 +82,15 @@ console.log(carrito);
 let nuevoCarrito = carrito.concat("pera")
 console.log(nuevoCarrito);
 
+//Ejercicio #11
+
+let roles = ["USER", "EDITOR"];
+console.log(roles);
+
+let Admin = roles.includes("ADMIN");
+console.log(Admin);
+
+let Editor = roles.includes("EDITOR"); 
+console.log(Editor);
+
+
