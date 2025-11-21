@@ -162,3 +162,17 @@ console.log(feed);
 
 let nuevoFeed = ["Noticia Urgente"].concat(feed);
 console.log(nuevoFeed);
+
+//Ejercicio #20 
+
+let puntuaciones = [50, 85, -10, 100, 0, 30];
+console.log(puntuaciones);
+
+let validas = puntuaciones.filter(puntaje => puntaje >= 0);
+console.log(validas);
+
+let bonificadas = validas.map(puntuacionValida => puntuacionValida + 10);
+console.log(bonificadas);
+
+let totalPuntos = bonificadas.reduce((acumulador, valor) => acumulador + valor, 0);
+console.log(totalPuntos);
