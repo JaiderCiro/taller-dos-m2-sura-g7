@@ -110,3 +110,12 @@ console.log(invitados);
 
 let invitadosOrdenados =[...invitados].sort();
 console.log(invitadosOrdenados);
+
+//Ejercicio #14
+
+let receta = ["Paso 1", "Paso 2", "Paso 3"];
+console.log(receta);
+
+let recetaInversa = [...receta].reverse();
+console.log(recetaInversa);
+
